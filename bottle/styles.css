@@ -25,3 +25,12 @@ text-transform: uppercase;
  font: bold 1.25rem garamond;
  text-align: left;
  }
+ .form-input:focus-visible {
+  border: 2px solid #00ff22;
+  background-color: #580000;
+  outline: none;
+ }
+ .submit-btn:focus-visible {
+  outline: 3px solid #ffcc00;
+  outline-offset: 2px;
+ }
