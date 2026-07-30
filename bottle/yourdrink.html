@@ -1,0 +1,81 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+  <meta charset="utf-8" >
+   <title>Crest Cap Bottling Corporation: Create Your Own Drink!</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>Crest Cap Bottling Corporation | Create Your Own Beverage!</h1>
+
+<p>Using our state of the art bottling plants, we will delivery to you a dream beverage courtesy of the information you provide.</p>
+
+
+<fieldset>
+  <legend>Your Information</legend>
+<ul>
+  <li>Name: <input type="text" name="customername"></li>
+  <li>Address: <input type="text" name="address"></li>
+  <li>Telephone Number: <input type="text" name="phonenumber"></li>
+  <li>Email: <input type="text" name="email"></li>
+  <li>Delivery instructions: <input type="text" name="instructions"><br>
+  <textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="No more than 400 characters long."></textarea></li>"
+</ul>
+</fieldset>
+
+
+
+<h2>Brew Your Beverage:</h2>
+
+<fieldset>
+<legend>Drink Characteristics</legend>
+
+<p>Flavor <em>(Choose one)</em>:</p>
+<ul>
+  <li><label><input type="radio" name="flavor" value="strawberry"> Strawberry</label></li>
+  <li><label><input type="radio" name="flavor" value="malt"> Malt</label></li>
+  <li><label><input type="radio" name="flavor" value="coconut"> Coconut</label></li>
+  <li><label><input type="radio" name="flavor" value="cream"> Cream</label></li>
+</ul>
+
+<p>Color of Drink <em>(Pick two or more for a mystery drink!)</em>:</p>
+<ul>
+  <li><label><input type="checkbox" name="colors[]" value="redsauce" checked> Red</label></li>
+  <li><label><input type="checkbox" name="colors[]" value="whitesauce"> White</label></li>
+  <li><label><input type="checkbox" name="colors[]" value="mozzarella"> Blue</label></li>
+  <li><label><input type="checkbox" name="colors[]" value="pepperoni"> Green</label></li>
+  <li><label><input type="checkbox" name="colors[]" value="mushrooms"> Black</label></li>
+  <li><label><input type="checkbox" name="colors[]" value="peppers"> Magenta</label></li>
+  <li><label><input type="checkbox" name="colors[]" value="anchovies"> Cyan</label></li>
+  <li><label><input type="checkbox" name="colors[]" value="blackolives"> Yellow</label></li>
+</ul>
+</fieldset>
+
+<fieldset>
+<p>Number</p>
+<p>How many drinks:<p>
+<select name="drinks" size="1">
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+  <option>6</option>
+</select>
+</p>
+</fieldset>
+
+
+<a href="drinkorder.html">
+  <button type="button">I want a drink!</button>
+</a>
+</form>
+<nav> 
+    <ul style="display: flex; justify-content: right; list-style: none; padding: 0; margin: 10; gap: 40px;">      
+        <li><a href="index.html" style="color:rgb(9, 255, 0) ;"><p>Back to Home</p></a></li>   
+    </ul>
+</nav>
+</body>
+</html>
